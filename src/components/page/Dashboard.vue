@@ -349,28 +349,23 @@ export default {
 
 .list-enter {
     opacity: 0;
-    transform: translateY(200%);
+    transform: translateY(100%);
 }
-.list-enter-active {
-    transition: all 2s;
+// 平滑过渡的两个因素：1.-move属性的设置 2.position: absolute属性的设置
+.list-move, .list-enter-active, .list-leave-active {
+    transition: all 1s;
 }
-
-.list-enter-to {
+.list-leave-active {
+  position: absolute;
+}
+.list-enter-to, .list-leave {
     opacity: 1;
     transform: translateY(0);
 }
 
-.list-leave {
-  opacity: 1;
-  transform: translateX(0);
-}
-
 .list-leave-to {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateY(-100%);
 }
 
-.list-leave-active {
-  transition: all 1s;
-}
 </style>

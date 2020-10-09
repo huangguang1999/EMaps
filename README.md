@@ -9,9 +9,6 @@
   <a href="https://github.com/huangguang1999/EMaps/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
-  <a href="https://github.com/huangguang1999/EMaps/releases">
-    <img src="https://img.shields.io/github/release/lin-xin/vue-manage-system.svg" alt="GitHub release">
-  </a>
 
 ![](https://gitee.com/huangguang1999/blog-image/raw/master/img/logo.png)
 
