@@ -351,6 +351,12 @@ export default {
     opacity: 0;
     transform: translateY(100%);
 }
+
+.list-leave-to {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
 // 平滑过渡的两个因素：1.-move属性的设置 2.position: absolute属性的设置
 .list-move, .list-enter-active, .list-leave-active {
     transition: all 1s;
@@ -361,11 +367,6 @@ export default {
 .list-enter-to, .list-leave {
     opacity: 1;
     transform: translateY(0);
-}
-
-.list-leave-to {
-    opacity: 0;
-    transform: translateY(-100%);
 }
 
 </style>

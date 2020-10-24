@@ -68,7 +68,7 @@
 -   [x] Element UI
 -   [x] 登录/注销
 -   [x] Dashboard
--   [ ] 静态地图
+-   [x] 静态地图
 -   [ ] 动态地图
 -   [ ] 分析报告
 
@@ -78,7 +78,7 @@
 
 ```javascript
 // 把模板下载到本地
-git clone https://github.com/lin-xin/vue-manage-system.git   
+git clone https://github.com/huangguang1999/EMaps   
 
 // 进入模板目录
 cd EMaps

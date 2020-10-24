@@ -37,7 +37,8 @@ a {
     width: auto;
     height: 100%;
     padding: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     box-sizing: border-box;
 }
 

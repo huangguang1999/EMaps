@@ -1,7 +1,7 @@
 module.exports = {
     publicPath: './',
     assetsDir: 'static',
-    productionSourceMap: false,
+    productionSourceMap: true,
     // devServer: {
     //     proxy: {
     //         '/api':{
